@@ -368,7 +368,7 @@ def run_module(name, args, config, client):
     return result
 
 def document(title, content, filename, kind='TechArticle'):
-    url = 'https://wulfkaal.com/agent-engagement/scorecard/' + ('' if filename == 'index.html' else filename)
+    url = 'https://wulfkaal.com/agent-engagement/scorecard/' + ('' if filename == 'index.html' else filename[:-5] if filename.endswith('.html') else filename)
     return '<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>' + html.escape(title) + '</title><meta name="description" content="Access and discoverability diagnostics for scholarly records"><link rel="canonical" href="' + url + '"><meta property="og:title" content="' + html.escape(title) + '"><meta property="og:type" content="article"><meta property="og:url" content="' + url + '"><meta property="og:description" content="Provisional scholarly diagnostics"><meta name="citation_title" content="' + html.escape(title) + '"><meta name="citation_author" content="Wulf A. Kaal"><meta name="citation_publication_date" content="2026/11/15"><script type="application/ld+json">' + json.dumps({'@context': 'https://schema.org', '@type': kind, 'name': title, 'url': url, 'author': {'@type': 'Person', 'name': 'Wulf A. Kaal'}}) + '</script><style>body{font-family:system-ui,sans-serif;max-width:76rem;margin:auto;padding:1rem;line-height:1.5}table{border-collapse:collapse;width:100%;margin:1rem 0}th,td{border:1px solid #aaa;padding:.4rem;text-align:left;overflow-wrap:anywhere}nav ul{padding-left:1.5rem}svg{max-width:100%}</style></head><body><header><a href="index.html">Scorecard</a></header><main><h1>' + html.escape(title) + '</h1>' + content + '</main></body></html>\n'
 
 def valid_payload(url, data):
@@ -545,7 +545,7 @@ def report(output):
         paragraphs.append('OpenAlex comparison: works {}; citations {}; h-index {}; OA works {}; OA works after 2021 {}. Primary benchmark N={}; sensitivity benchmark N={}.'.format(metrics.get('works','unknown'),metrics.get('cited_by','unknown'),metrics.get('h_index','unknown'),metrics.get('oa_works','unknown'),metrics.get('oa_recent','unknown'),obj(obj(modules['compare'].get('comparison')).get('primary')).get('N','unknown'),obj(obj(modules['compare'].get('comparison')).get('sensitivity')).get('N','unknown')))
         paragraphs.append('OA grouped share {} uses denominator {} (OA plus non-OA). OA profile share {} uses denominator {} (profile works). The share discrepancy is {}. Both measures remain separate.'.format(metrics.get('oa_share_grouped','unknown'),metrics.get('oa_denominator_grouped','unknown'),metrics.get('oa_share_profile','unknown'),metrics.get('oa_denominator_profile','unknown'),metrics.get('oa_share_discrepancy','unknown')))
     effect=[]
-    paragraphs.append('This bundle contains no visitor tracking or submission collection; hosting infrastructure may retain request logs.')
+    paragraphs.append('This bundle contains no visitor tracking or submission collection. The hosting infrastructure may retain request logs, and the wulfkaal.com host may inject Cloudflare Web Analytics, which is outside this bundle.')
     md='# Agent Discoverability Scorecard\n\nRun: '+rid+'\n\n'+'\n\n'.join(paragraphs)+'\n\n'
     content=''.join('<p>'+html.escape(x)+'</p>' for x in ['Run: '+rid]+paragraphs)
     effect_html=table(['Metric','Primary exact to public','Sensitivity exact to public'],effect) if effect else ''

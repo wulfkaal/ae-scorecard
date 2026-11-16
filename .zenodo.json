@@ -1,0 +1,29 @@
+{
+  "title": "Agent Discoverability Scorecard",
+  "upload_type": "software",
+  "description": "Standard-library diagnostics for scholarly web access, machine readability, public index coverage, search-index retrieval and a sampled claims layer for one scholar's work, with a provisional comparison against a resolved Sisk-Leiter-listed OpenAlex cohort. The scorecard reports position X of N with ties and denominators. It is not Agent Engagement (AE), makes no global ranking and produces no composite score. Published baseline: https://wulfkaal.com/agent-engagement/scorecard/",
+  "creators": [
+    {
+      "name": "Kaal, Wulf A.",
+      "affiliation": "University of St. Thomas School of Law",
+      "orcid": "0009-0008-7840-1847"
+    }
+  ],
+  "keywords": [
+    "agent discoverability",
+    "scholarly metrics",
+    "research assessment",
+    "AI agents",
+    "legal scholarship",
+    "OpenAlex",
+    "llms.txt"
+  ],
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://wulfkaal.com/agent-engagement/scorecard/",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    }
+  ]
+}

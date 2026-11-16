@@ -25,5 +25,7 @@
       "relation": "isDocumentedBy",
       "scheme": "url"
     }
-  ]
+  ],
+  "license": "agpl-3.0-or-later",
+  "version": "0.1.2"
 }

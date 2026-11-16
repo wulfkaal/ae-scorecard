@@ -74,4 +74,4 @@ HTTP and robots observations describe one client, URL and time, not universal ac
 
 Use [CITATION.cff](CITATION.cff): Wulf A. Kaal, Agent Discoverability Scorecard, version 0.1.0, released 2026-11-16. Repository: <https://github.com/wulfkaal/ae-scorecard>. No DOI has been assigned here.
 
-The distribution license has not been selected by the owner yet. No license grant is asserted and no LICENSE file is included.
+Licensed under the GNU Affero General Public License v3.0 or later (see LICENSE). Copyright Wulf A. Kaal. The license text disclaims warranty and limits liability. Network use of a modified version triggers source-disclosure obligations.

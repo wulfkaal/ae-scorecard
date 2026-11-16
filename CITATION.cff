@@ -11,4 +11,4 @@ authors:
     affiliation: "University of St. Thomas School of Law"
 repository-code: "https://github.com/wulfkaal/ae-scorecard"
 url: "https://wulfkaal.com/agent-engagement/scorecard/"
-# TODO: Owner to select the distribution license.
+license: AGPL-3.0-or-later

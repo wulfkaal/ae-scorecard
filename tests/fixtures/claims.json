@@ -1,0 +1,48 @@
+{
+  "state": "observed",
+  "run_id": "synthetic-claims",
+  "observed_at": "2026-11-16T00:00:00+00:00",
+  "observed_total": 10,
+  "declared_total": 10,
+  "sample_size": 5,
+  "seed": 1,
+  "metrics": {
+    "stable_url": {
+      "count": 3,
+      "n": 5,
+      "share": 0.6,
+      "wilson_95": [
+        0.2307242812760128,
+        0.882379225767352
+      ]
+    },
+    "citation": {
+      "count": 3,
+      "n": 5,
+      "share": 0.6,
+      "wilson_95": [
+        0.2307242812760128,
+        0.882379225767352
+      ]
+    },
+    "identifier_mapped": {
+      "count": 3,
+      "n": 5,
+      "share": 0.6,
+      "wilson_95": [
+        0.2307242812760128,
+        0.882379225767352
+      ]
+    },
+    "content_hash": {
+      "count": 3,
+      "n": 5,
+      "share": 0.6,
+      "wilson_95": [
+        0.2307242812760128,
+        0.882379225767352
+      ]
+    }
+  },
+  "sample_topics": {}
+}

@@ -1,0 +1,215 @@
+{
+  "date": "2026-11-16T12:39:26.830424+00:00",
+  "method": "resolved Sisk-Leiter-listed OpenAlex records (provisional)",
+  "definitions": {
+    "works": "OpenAlex profile works_count",
+    "cited_by": "OpenAlex profile cited_by_count",
+    "h_index": "OpenAlex summary_stats.h_index",
+    "oa_works": "Grouped is_oa:true count",
+    "oa_recent": "OA works published after 2021",
+    "oa_share_grouped": "oa/(oa+nonoa); missing when denominator is zero",
+    "oa_share_profile": "oa/works; missing when denominator is zero"
+  },
+  "duplicate_profile_count": 0,
+  "exclusions": {
+    "unresolved_records": 0,
+    "shared_profile_records": 0
+  },
+  "quantile_rule": "Linear interpolation at (N-1)*p on ascending values.",
+  "primary": {
+    "N": 10,
+    "values": {
+      "works": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "cited_by": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28,
+        32,
+        36
+      ],
+      "h_index": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "oa_works": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "oa_recent": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "oa_share_grouped": [
+        0.0,
+        0.09090909090909091,
+        0.16666666666666666,
+        0.23076923076923078,
+        0.2857142857142857,
+        0.3333333333333333,
+        0.375,
+        0.4117647058823529,
+        0.4444444444444444,
+        0.47368421052631576
+      ],
+      "oa_share_profile": [
+        0.0,
+        0.09090909090909091,
+        0.16666666666666666,
+        0.23076923076923078,
+        0.2857142857142857,
+        0.3333333333333333,
+        0.375,
+        0.4117647058823529,
+        0.4444444444444444,
+        0.47368421052631576
+      ]
+    },
+    "metric_N": {
+      "works": 10,
+      "cited_by": 10,
+      "h_index": 10,
+      "oa_works": 10,
+      "oa_recent": 10,
+      "oa_share_grouped": 10,
+      "oa_share_profile": 10
+    }
+  },
+  "sensitivity": {
+    "N": 10,
+    "values": {
+      "works": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "cited_by": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28,
+        32,
+        36
+      ],
+      "h_index": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "oa_works": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "oa_recent": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "oa_share_grouped": [
+        0.0,
+        0.09090909090909091,
+        0.16666666666666666,
+        0.23076923076923078,
+        0.2857142857142857,
+        0.3333333333333333,
+        0.375,
+        0.4117647058823529,
+        0.4444444444444444,
+        0.47368421052631576
+      ],
+      "oa_share_profile": [
+        0.0,
+        0.09090909090909091,
+        0.16666666666666666,
+        0.23076923076923078,
+        0.2857142857142857,
+        0.3333333333333333,
+        0.375,
+        0.4117647058823529,
+        0.4444444444444444,
+        0.47368421052631576
+      ]
+    },
+    "metric_N": {
+      "works": 10,
+      "cited_by": 10,
+      "h_index": 10,
+      "oa_works": 10,
+      "oa_recent": 10,
+      "oa_share_grouped": 10,
+      "oa_share_profile": 10
+    }
+  }
+}

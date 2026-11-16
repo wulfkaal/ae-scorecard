@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this software using the metadata below."
+type: software
+title: "Agent Discoverability Scorecard"
+version: 0.1.0
+date-released: 2026-11-16
+authors:
+  - family-names: Kaal
+    given-names: Wulf A.
+repository-code: "https://github.com/wulfkaal/ae-scorecard"
+url: "https://wulfkaal.com/agent-engagement/scorecard/"
+# TODO: Owner to select the distribution license.

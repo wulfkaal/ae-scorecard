@@ -1,0 +1,102 @@
+[
+  {
+    "resolved": true,
+    "openalex_id": "synthetic-0",
+    "works": 10,
+    "cited_by": 0,
+    "h_index": 0,
+    "oa_works": 0,
+    "nonoa_works": 10,
+    "oa_recent": 0
+  },
+  {
+    "resolved": true,
+    "openalex_id": "synthetic-1",
+    "works": 11,
+    "cited_by": 4,
+    "h_index": 1,
+    "oa_works": 1,
+    "nonoa_works": 10,
+    "oa_recent": 1
+  },
+  {
+    "resolved": true,
+    "openalex_id": "synthetic-2",
+    "works": 12,
+    "cited_by": 8,
+    "h_index": 2,
+    "oa_works": 2,
+    "nonoa_works": 10,
+    "oa_recent": 2
+  },
+  {
+    "resolved": true,
+    "openalex_id": "synthetic-3",
+    "works": 13,
+    "cited_by": 12,
+    "h_index": 3,
+    "oa_works": 3,
+    "nonoa_works": 10,
+    "oa_recent": 3
+  },
+  {
+    "resolved": true,
+    "openalex_id": "synthetic-4",
+    "works": 14,
+    "cited_by": 16,
+    "h_index": 4,
+    "oa_works": 4,
+    "nonoa_works": 10,
+    "oa_recent": 4
+  },
+  {
+    "resolved": true,
+    "openalex_id": "synthetic-5",
+    "works": 15,
+    "cited_by": 20,
+    "h_index": 5,
+    "oa_works": 5,
+    "nonoa_works": 10,
+    "oa_recent": 5
+  },
+  {
+    "resolved": true,
+    "openalex_id": "synthetic-6",
+    "works": 16,
+    "cited_by": 24,
+    "h_index": 6,
+    "oa_works": 6,
+    "nonoa_works": 10,
+    "oa_recent": 6
+  },
+  {
+    "resolved": true,
+    "openalex_id": "synthetic-7",
+    "works": 17,
+    "cited_by": 28,
+    "h_index": 7,
+    "oa_works": 7,
+    "nonoa_works": 10,
+    "oa_recent": 7
+  },
+  {
+    "resolved": true,
+    "openalex_id": "synthetic-8",
+    "works": 18,
+    "cited_by": 32,
+    "h_index": 8,
+    "oa_works": 8,
+    "nonoa_works": 10,
+    "oa_recent": 8
+  },
+  {
+    "resolved": true,
+    "openalex_id": "synthetic-9",
+    "works": 19,
+    "cited_by": 36,
+    "h_index": 9,
+    "oa_works": 9,
+    "nonoa_works": 10,
+    "oa_recent": 9
+  }
+]
